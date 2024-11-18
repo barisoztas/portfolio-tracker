@@ -34,11 +34,27 @@ portfolio-tracker
 =================
 
 
-    Add a short description here!
+    Start the project as a process transaction history and derive useful information
 
 
-A longer description of your project goes here...
+Short term plans:
+- Create a datamodel for transactions log
+    - Columns
+    - Types
+    - Which currency
+- Think about what needs to be done if transactions datamodel will be updated.
+    - New columns
 
+- module for get financial data
+    - on top of [pyfinance](https://pypi.org/project/yfinance/)
+        - For stocks/index: handling of explicit different stocks markets (BIST, NASDAQ)
+        - For crypto: get price - check which api
+
+Mid-term planning:
+- data visualization using streamlit
+
+Long term planning:
+- Full stack stuff 
 
 .. _pyscaffold-notes:
 
