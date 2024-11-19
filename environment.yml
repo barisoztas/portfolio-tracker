@@ -1,0 +1,11 @@
+name: portfolio-tracker
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scipy
+  - pip:
+    - . -e
