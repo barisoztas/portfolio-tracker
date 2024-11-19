@@ -1,0 +1,11 @@
+name: portfolio-tracker
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - pandas
+  - scipy
+  - pip:
+    - -e .
