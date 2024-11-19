@@ -4,7 +4,9 @@
 
 Start the project as a process transaction history and derive useful information
 
-Short term plans:
+## Planning
+
+### Short term plans
 
 - Create a datamodel for transactions log
   - Columns
@@ -18,7 +20,7 @@ Short term plans:
     - For stocks/index: handling of explicit different stocks markets (BIST, NASDAQ)
     - For crypto: get price - check which api
 
-Mid-term planning:
+## Mid-term planning
 
 - data visualization using streamlit
 
